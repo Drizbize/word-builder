@@ -1,0 +1,70 @@
+{
+  "lifes": 5,
+  "first_text": "Journey stone golden it green campfire",
+  "text_layers": [
+    [
+      {
+        "difficulty": {
+          "timerOut": 2.2,
+          "vMin": 100.0,
+          "vMax": 120.0,
+          "moveType": "SINE_WAVE"
+        },
+        "strategy": {
+          "init": "ROW",
+          "method": "BOTH_SIDES",
+          "style": "INVISIBLE"
+        }
+      },
+      "Garden",
+      "Gold brave",
+      "Planet",
+      {
+        "difficulty": {
+          "moveType": "CURVE",
+          "vMin": 100.0
+        }
+      },
+      "We stone",
+      "Golden",
+      "Restaurant",
+      {
+        "difficulty": {
+          "moveType": "SINE_WAVE",
+          "vRot": 40.0
+        }
+      },
+      "Green",
+      "Sea",
+      "Imagination",
+      {
+        "difficulty": {
+          "vRot": 40.0,
+          "cameraRot": -5
+        }
+      },
+      "Spirit we jump",
+      "(thunderstormto"
+    ],
+    [
+      {
+        "difficulty": {
+          "timerOut": 1.8,
+          "vMin": 80.0,
+          "vMax": 150.0,
+          "moveType": "LINEAR",
+          "cameraRot": 0
+        },
+        "strategy": {
+          "init": "RND",
+          "method": "BOTH_SIDES",
+          "style": "EXPLORING"
+        }
+      },
+      "Cloud",
+      "map",
+      "go",
+      "happy!"
+    ]
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "lifes": 5,
+  "first_text": "We i i in so key mystery owl ...",
+  "text_layers": [
+    [
+      {
+        "difficulty": {
+          "timerOut": 2.0,
+          "vMin": 65.0,
+          "vMax": 85.0,
+          "moveType": "LINEAR"
+        },
+        "strategy": {
+          "init": "ROW",
+          "method": "RIGHT",
+          "style": "INVISIBLE"
+        }
+      },
+      "Gold",
+      "harvest",
+      "to",
+      "keyboard",
+      {
+        "strategy": {
+          "style": "EXPLORING",
+          "method": "RND_SIDE"
+        }
+      },
+      "Stone",
+      "Cloud"
+    ],
+    [
+      {
+        "difficulty": {
+          "vRot": 20.0,
+          "timerOut": 2.0
+        },
+        "strategy": {
+          "init": "RND",
+          "method": "BOTH_SIDES",
+          "style": "INVISIBLE"
+        }
+      },
+      "Mystery",
+      "we",
+      "captain",
+      {
+        "difficulty": {
+          "vRot": 45.0,
+          "vMin": 90.0
+        }
+      },
+      "midnight",
+      "compass"
+    ],
+    [
+      {
+        "difficulty": {
+          "moveType": "SINE_WAVE",
+          "vRot": 0.0,
+          "cameraRot": -5
+        },
+        "strategy": {
+          "method": "RND"
+        }
+      },
+      "Day",
+      {
+        "difficulty": {
+          "cameraRot": 5
+        }
+      },
+      "jump"
+    ]
+  ]
+}

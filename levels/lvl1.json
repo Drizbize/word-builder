@@ -1,0 +1,40 @@
+{
+  "lifes": 5,
+  "first_text": "i we universe star happy in horizon !",
+  "text_layers": [
+    [
+      {
+        "difficulty": {
+          "timerOut": 3.0,
+          "vMin": 40.0,
+          "vMax": 60.0,
+          "moveType": "LINEAR"
+        },
+        "strategy": {
+          "init": "ROW",
+          "method": "RIGHT",
+          "style": "AVAILABLE"
+        }
+      },
+      "Bird ?",
+      "Jump ?",
+      "Blue",
+      "sky"
+    ],
+    [
+      {
+        "difficulty": {
+          "timerOut": 1.5,
+          "vMin": 50.0,
+          "vMax": 70.0
+        },
+        "strategy": {
+          "style": "INVISIBLE"
+        }
+      },
+      "On map",
+      "key fire",
+      "rain ice !"
+    ]
+  ]
+}

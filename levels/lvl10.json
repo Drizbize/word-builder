@@ -1,0 +1,126 @@
+{
+  "lifes": 3,
+  "first_text": "Sea wonderful...",
+  "text_layers": [
+    [
+      {
+        "difficulty": {
+          "timerOut": 1.3,
+          "vMin": 130.0,
+          "vMax": 160.0,
+          "moveType": "CURVE"
+        },
+        "strategy": {
+          "init": "RND",
+          "method": "RND",
+          "style": "EXPLORING"
+        }
+      },
+      "Dream",
+      "bird",
+      "planet?",
+      {
+        "difficulty": {
+          "vRot": 100.0,
+          "cameraRot": 15
+        }
+      },
+      "Thunder?",
+      {
+        "difficulty": {
+          "cameraRot": -15
+        }
+      },
+      "Captain?",
+      {
+        "difficulty": {
+          "vMin": 180.0,
+          "moveType": "LINEAR"
+        },
+        "strategy": {
+          "style": "INVISIBLE"
+        }
+      },
+      "To",
+      "in",
+      "fire",
+      "owl"
+    ],
+    [
+      {
+        "difficulty": {
+          "timerOut": 1.5,
+          "vMin": 80.0,
+          "vMax": 100.0,
+          "moveType": "SINE_WAVE",
+          "cameraRot": 0,
+          "vRot": 0
+        },
+        "strategy": {
+          "init": "ROW",
+          "method": "BOTH_SIDES",
+          "style": "AVAILABLE"
+        }
+      },
+      "Up",
+      "rocket",
+      "jump",
+      "on",
+      {
+        "strategy": {
+          "style": "INVISIBLE"
+        },
+        "difficulty": {
+          "vMin": 120.0
+        }
+      },
+      "Stone"
+    ],
+    [
+      {
+        "difficulty": {
+          "timerOut": 1.1,
+          "vMin": 200.0,
+          "vMax": 250.0,
+          "moveType": "LINEAR",
+          "cameraRot": -10
+        },
+        "strategy": {
+          "init": "ROW",
+          "method": "RIGHT",
+          "style": "EXPLORING"
+        }
+      },
+      "In",
+      "Map",
+      {
+        "difficulty": {
+          "timerOut": 0.9,
+          "vMin": 220.0,
+          "vMax": 270.0
+        }
+      },
+      "star",
+      "up",
+      {
+        "difficulty": {
+          "timerOut": 0.8,
+          "vMin": 230.0,
+          "vMax": 280.0,
+          "cameraRot": 10
+        }
+      },
+      "music",
+      "it",
+      {
+        "difficulty": {
+          "timerOut": 0.7,
+          "vMin": 240.0,
+          "vMax": 290.0,
+          "cameraRot": 0
+        }
+      },
+      "on run"
+    ]
+  ]
+}

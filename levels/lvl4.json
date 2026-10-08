@@ -1,0 +1,91 @@
+{
+  "lifes": 4,
+  "first_text": "Butterfly ice harvest quick in so cloud",
+  "text_layers": [
+    [
+      {
+        "difficulty": {
+          "timerOut": 2.2,
+          "vMin": 70.0,
+          "vMax": 90.0,
+          "moveType": "SINE_WAVE"
+        },
+        "strategy": {
+          "init": "ROW",
+          "method": "RIGHT",
+          "style": "INVISIBLE"
+        }
+      },
+      "Sunshine",
+      {
+        "difficulty": {
+          "vRot": 30.0,
+          "cameraRot": 10
+        }
+      },
+      "Green"
+    ],
+    [
+      {
+        "difficulty": {
+          "timerOut": 1.6,
+          "vMin": 110.0,
+          "vMax": 140.0,
+          "moveType": "LINEAR"
+        },
+        "strategy": {
+          "init": "RND",
+          "method": "BOTH_SIDES",
+          "style": "EXPLORING"
+        }
+      },
+      "Fire harvest",
+      {
+        "difficulty": {
+          "vRot": 80.0,
+          "moveType": "CURVE",
+          "cameraRot": -15
+        }
+      },
+      "Gold",
+      {
+        "strategy": {
+          "method": "RND_SIDE"
+        }
+      },
+      "in",
+      {
+        "difficulty": {
+          "vMin": 160.0,
+          "cameraRot": 15
+        }
+      },
+      "Run"
+    ],
+    [
+      {
+        "difficulty": {
+          "timerOut": 2.0,
+          "vMin": 90.0,
+          "vMax": 110.0,
+          "moveType": "SINE_WAVE",
+          "cameraRot": 0
+        },
+        "strategy": {
+          "init": "RND",
+          "method": "RND",
+          "style": "INVISIBLE"
+        }
+      },
+      "Imagination",
+      "up treasure",
+      {
+        "difficulty": {
+          "moveType": "CURVE",
+          "vRot": 50.0
+        }
+      },
+      "it harvest"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Level 1 - Warm-up",
+        "path": "levels/lvl1.json"
+    },
+    {
+        "name": "Level 2 - Moving words",
+        "path": "levels/lvl2.json"
+    },
+    {
+        "name": "Level 3 - Faster",
+        "path": "levels/lvl3.json"
+    },
+    {
+        "name": "Level 4 - Rotations",
+        "path": "levels/lvl4.json"
+    },
+    {
+        "name": "Level 5 - Final",
+        "path": "levels/lvl10.json"
+    }
+]

@@ -1,0 +1,66 @@
+{
+  "lifes": 5,
+  "first_text": "This is the text lvl",
+  "text_layers": [
+    [
+      {
+        "difficulty": { "timerOut": 2.5, "vMin": 50.0, "vMax": 75.0 },
+        "strategy": {"init": "RND", "method": "RND_SIDE", "style": "INVISIBLE" }
+      },
+      "Test",
+      "word"
+    ],
+    [
+      {
+        "difficulty": {"timerOut": 1.75, "vMin": 100.0, "vMax": 125.0 },
+        "strategy": {"style": "EXPLORING" }
+      },
+      "Good!",
+      {
+        "strategy": {"init": "RND", "method": "RIGHT"}
+      },
+      "Can",
+      {
+        "strategy": {"method": "LEFT" }
+      },
+      "you",
+      {
+        "strategy": {"method": "BOTH_SIDES" }
+      },
+      "beat",
+      {
+        "strategy": {"method": "RND_SIDE" }
+      },
+      "the next?"
+    ],
+    [
+      {
+        "difficulty": {"vRot": 50 },
+        "strategy": {"method": "BOTH_SIDES" }
+      },
+      "Rotations",
+      {
+        "difficulty": {"vRot": 10, "moveType": "SINE_WAVE" }
+      },
+      "Waves",
+      {
+        "difficulty": {"moveType": "CURVE" }
+      },
+      "Zig zag"
+    ],
+    [
+      {
+        "difficulty": {"moveType": "LINEAR" }
+      },
+      "Camera",
+      {
+        "difficulty": {"cameraRot": -15 }
+      },
+      "left",
+      {
+        "difficulty": {"cameraRot": 15 }
+      },
+      "right"
+    ]
+  ]
+}
